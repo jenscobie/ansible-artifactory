@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe command('java -version') do
   its(:exit_status) { should eq 0 }
-  its(:stderr) { should match /1.7/ }
+  its(:stderr) { should match /1.8/ }
 end
 
 describe service('artifactory') do
