@@ -6,4 +6,4 @@ galaxy_info:
   categories:
     - development
 dependencies:
-  - { role: "git+https://github.com/geerlingguy/ansible-role-java" }
+  - { role: geerlingguy.java }
