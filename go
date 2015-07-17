@@ -15,8 +15,6 @@ rbenv local $REQUIRED_RUBY
 (rbenv exec gem list | grep bundler) || rbenv exec gem install bundler
 bundle --path=vendor/bundle --quiet
 
-ansible-galaxy install --role-file=Galaxyfile --roles-path=roles --force
-
 function helptext {
     echo "Usage: ./go <command>"
     echo ""
@@ -34,6 +32,8 @@ function boot {
 }
 
 function provision {
+    ansible-galaxy install --role-file=Galaxyfile --roles-path=roles --force
+
     boot
     vagrant provision
 }
