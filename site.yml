@@ -1,0 +1,8 @@
+---
+- hosts: all
+  sudo: yes
+  roles:
+    - geerlingguy.java
+
+  tasks:
+    - include: tasks/main.yml
