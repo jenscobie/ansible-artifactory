@@ -1,0 +1,2 @@
+---
+artifactory_rpm: "https://bintray.com/artifact/download/jfrog/artifactory-rpms/artifactory-{{ artifactory_version }}.rpm"

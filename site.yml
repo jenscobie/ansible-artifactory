@@ -5,4 +5,4 @@
     - geerlingguy.java
 
   tasks:
-    - include: tasks/main.yml
+    - { include: tasks/main.yml, artifactory_version: 3.9.1 }

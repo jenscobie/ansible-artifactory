@@ -1,6 +1,6 @@
 ---
 - name: install artifactory service
-  yum: name=https://bintray.com/artifact/download/jfrog/artifactory-rpms/artifactory-{{ artifactory_version }}.rpm state=present
+  yum: name="https://bintray.com/artifact/download/jfrog/artifactory-rpms/artifactory-{{ artifactory_version }}.rpm" state=present
 
 - name: enable artifactory service
   service: name=artifactory enabled=yes
