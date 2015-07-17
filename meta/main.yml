@@ -1,3 +1,9 @@
 ---
+galaxy_info:
+  author: "Jen Scobie"
+  description: "Install artifactory, the world’s most advanced repository manager."
+  license: MIT
+  categories:
+    - development
 dependencies:
   - { role: "git+https://github.com/geerlingguy/ansible-role-java" }
