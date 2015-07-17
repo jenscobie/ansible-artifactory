@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: "Jen Scobie"
-  description: "Install artifactory, the world’s most advanced repository manager."
+  description: "Install Artifactory, the world’s most advanced repository manager."
   license: MIT
   categories:
     - development
